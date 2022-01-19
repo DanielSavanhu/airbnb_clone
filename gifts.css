@@ -1,0 +1,39 @@
+.gifts{
+    z-index: 1;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gifts .left{
+    /* padding: 40px; */
+    font-size: 25px;
+    width: 450px;
+    color: #001;
+    margin: auto;
+    text-align: center;
+}
+.gifts .left button{
+    background-color: #001;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.gifts .right{
+    width: 450px;
+    margin: auto;
+}
+.gifts .right #top{
+    margin:  auto;
+    border: 0;   
+    transform: rotate(-35deg);
+}
+.gifts .right #bottom{
+    margin: auto;
+    border: 0;
+}

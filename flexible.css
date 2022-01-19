@@ -1,0 +1,23 @@
+.flexible{
+    border-radius: 25px;
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    color: white;
+    background-image: url("large-image.png");
+    text-align: center;
+}
+.flexible h1{
+    position: absolute;
+    bottom: 25%;
+    left: 0;right: 0;
+}
+.flexible .flex-btn{
+    position: absolute;
+    bottom: 15%;
+    background-color: white;
+    padding: 20px;
+    color: #f08;
+    border-radius: 30px;
+    left: 47%;right:45%;
+}

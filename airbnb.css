@@ -1,0 +1,74 @@
+main{
+    background-color: black;
+}
+.black{
+    height: 1100px;
+    background-color: black;
+    margin: auto;
+}
+.white{
+    height: 1600px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+}
+.nav-bar{
+    background-color: black;
+    height: 5vh;
+    border-bottom: .5px solid black;
+    margin: auto 50px;
+    text-align: center;
+    color: white;
+    display: grid;
+    font-family: "monospace" sans-serif;
+    grid-template-columns: auto auto auto;
+}
+.nav-bar i{
+    font-size: 20px;
+}
+.center-bar {
+    font-family: "monospace" sans-serif;
+    margin: auto;
+}
+.center-bar > a{
+    color: white;    
+    text-decoration: none;
+}
+.center-bar > a:hover{
+    color: grey;
+}
+.end-bar{
+    color: white;    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.end-bar i{
+    margin: auto;
+}
+.end-bar .btn{
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.end-bar-menu{
+    border-radius: 15px;
+    color: grey;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 15px 25px;    
+}
+
+.divider{
+    background-color: black;
+    height: 20px;
+}
+.white-divider{
+    background-color: white;
+    height: 200px;
+}
+.red-divider{
+    background-color:red;
+    height: 20px;
+}

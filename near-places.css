@@ -1,0 +1,25 @@
+.near-places{
+    color: black;
+    margin: auto;
+    width: 1200px;
+}
+
+.near-places .container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    color: white;
+    margin: auto;
+    height: 400px;
+
+}
+
+.near-places .container *{
+    background-color: purple;
+    border-radius: 20px;
+    border: 0;
+    padding: 1px;
+}
+.near-places .container > p, h2{
+    padding: 15px;
+}
